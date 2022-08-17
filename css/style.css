@@ -116,8 +116,12 @@ section {
     text-align: center;
 }
 
-
-
+.vframe {
+    width: 100%;
+    height: 30vw;
+    border: 2px solid #fa9483;
+    border-radius: 5px;
+}
 
 .bold {
     font-weight: bold;
@@ -236,10 +240,6 @@ section {
         font-size: 140%;
     }
 
-    section video {
-        height: 55vw;
-    }
-
     [class^="col-"] {
         width: 100%;
     }
@@ -250,6 +250,10 @@ section {
 
     .index-info h1 {
         font-size: 250%;
+    }
+
+    .vframe {
+        height: 55vw;
     }
 
     navbar a {
